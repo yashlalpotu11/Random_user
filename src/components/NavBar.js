@@ -5,12 +5,12 @@ import { Button } from 'react-bootstrap'
 
 const NavBar = () => {
     const handleClick = () => {
-        console.log('Clicked')
+        window.location.reload();
     }
     return(
         <Navbar bg="dark" variant="dark" fixed="top" style={{color : 'white'}} >
             <Container>
-                <strong>Contact List</strong>
+                <strong>CONTACT LIST</strong>
                 <Button className="primary" onClick={handleClick} >Refresh</Button>
             </Container>
         </Navbar>

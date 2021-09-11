@@ -1,11 +1,15 @@
 import './App.css';
+import { Container } from 'react-bootstrap';
 import NavBar from './components/NavBar'
 function App() {
-  return (
-    <div className="App">
-      <NavBar />
-    </div>
-  );
+    return (
+        <div className="App">
+            <NavBar />
+        <Container>
+            
+        </Container>
+        </div>
+    );
 }
 
 export default App;
